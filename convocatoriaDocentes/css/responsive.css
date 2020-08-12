@@ -1,0 +1,293 @@
+@media (max-width: 1336px){
+	.centro-contenido{
+		width: 96%;
+	}
+
+	.ul-site li{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.sec2 img{
+		display: none;
+	}
+
+	.sec4 .video{
+		margin-top: 100px;
+		width: 450px;
+	}
+
+	.blog{
+		width: 30%;
+		margin-right: 2%;
+	}
+
+	.blog img{
+		position: absolute;
+		width: 30%;
+	}
+
+	.blog article{
+		width: 93%;
+		height: 270px;
+		left: 15px;
+		top: 100px;
+		padding: 25px;
+	}
+
+	.blog time{
+		padding-right: 25px;
+	}
+
+	.blog .longline{
+		width: 240px;
+	}
+
+	footer .footbox{
+		width: 24%;
+	}
+
+	footer .foot3{
+		margin-right: 5px;
+		width: 200px;
+	}
+
+	footer .line3{
+		width: 90%;
+	}
+}
+
+@media (max-width: 1024px){
+	.centro-contenido{
+		width: 98%;
+	}
+
+	.sec2 img{
+		display: none;
+	}
+
+	.ico-nav{
+		display: block;
+	}
+
+	.nav-site{
+		text-align: right;
+	}
+
+	.ul-site{
+		display: none;
+		background-color: white;
+		width: 200px;
+		position: relative;
+		left: -50px;
+		top: -40px;
+		transition: all 0.4s linear;
+	}
+
+	.ul-site li{
+		display: block;
+		padding: 10px;
+	}
+
+
+	.blog article{
+		width: 93%;
+		height: 300px;
+		top: 100px;
+		left: 15px;
+	}
+
+	.blog time{
+		padding-right: 10px;
+	}
+
+	.blog .longline{
+		width: 220px;
+	}
+}
+
+@media (max-width: 970px){
+	.sec2-box{
+		width: 100%;
+	}
+
+	.sec2 img{
+		display: none;
+	}
+
+	.sec3 img{
+		display: none;
+	}
+
+	.sec3-content{
+		display: block;
+		right: 0%;
+		background: url(../img/expert.jpg);
+		/*background-color: #182945;*/
+		background-size: cover;
+		width: 100%;
+		height: 400px;
+	}
+
+	.sec3-txt{
+		display: block;
+		margin: 0 auto;
+		padding-top: 100px;
+		text-align: center;
+	}
+
+	.sec4{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.sec4-left{
+		width: 100%;
+	}
+
+	.sec4 .video{
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	.blog{
+		margin: 0 auto;
+		margin-bottom: 180px;
+		width: 46%;
+		margin-right: 2%;
+	}
+
+
+	.blog img{
+		position: absolute;
+		width: 46%;
+	}
+
+
+	.blog article{
+		width: 90%;
+		height: 250px;
+		top: 130px;
+		left: 20px;
+	}
+
+	.blog time{
+		padding-right: 10px;
+	}
+
+	.blog .longline{
+		width: 98%;
+	}
+
+	.sec5{
+		width: 100%;
+		background-color: #23364f;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.sec5 li{
+		width: 90%;
+
+	}
+
+	.sec5 li div{
+		width: 70%;
+	}
+
+	.sec5 .text{
+		display: none;
+	}
+
+	.sec6{
+		margin-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	footer .footbox{
+		width: 40%;
+	}
+
+	footer .foot3{
+		margin-right: 20px;
+		width: 40%;
+	}
+
+
+}
+
+@media (max-width: 800px){
+	.blog{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 370px;
+	}
+
+	.blog img{
+		width: 90%;
+	}
+
+	.blog article{
+		width: 85%;
+		height: 200px;
+		top: 320px;
+		left: 25px;
+		transition: all 0.4s linear;
+	}
+
+	.blog time{
+		padding-right: 10px;
+	}
+
+	.blog article:hover{
+		top: 340px;
+	}
+
+	.blog .longline{
+		width: 98%;
+	}
+}
+
+@media (max-width: 600px){
+	.blog{
+		margin-bottom: 250px;
+	}
+
+	.blog article{
+		top: 200px;
+		left: 15px;
+		transition: all 0.4s linear;
+	}
+
+	.blog article:hover{
+		top: 220px;
+	}
+
+	footer .footbox{
+		width: 96%;
+	}
+
+	footer .foot3{
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	footer .foot4{
+		display: block;
+		position: none;
+	}
+
+	.foot4 ul{
+		position: none;
+		background: none;
+	}
+
+	footer .foot{
+		padding-bottom: 300px;
+	}
+
+	.foot2 .txt{
+		width: 400px;
+	}
+}
